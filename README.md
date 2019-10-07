@@ -31,6 +31,7 @@ A collection of samples using the [Architecture Components](https://developer.an
 
 ## TO DO
 - Add Documentation
+- Fix bugs
 - Improve Delete function
 - Add Navigation Component
 - Get Comments
