@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JsonApiTest</string>
+
+    <string name="text_home">Home</string>
+    <string name="text_favorite">Favorites</string>
+    <string name="unread_status">Unread Status</string>
+    <string name="refresh_all">Refresh All</string>
+    <string name="description">Description</string>
+    <string name="user">User</string>
+</resources>

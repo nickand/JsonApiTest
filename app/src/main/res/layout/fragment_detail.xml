@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/titleDetailTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:paddingStart="26dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black_anime"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/ivFavorite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="APP" />
+
+        <ImageView
+            android:id="@+id/ivFavorite"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_favorite_outline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/titleDescriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="26dp"
+            android:paddingTop="20dp"
+            android:paddingRight="26dp"
+            android:paddingBottom="8dp"
+            android:textSize="20sp"
+            android:text="@string/description"
+            android:textColor="@color/black_anime"
+            app:layout_constraintTop_toBottomOf="@+id/titleDetailTextView"
+            tools:text="Description" />
+
+        <TextView
+            android:id="@+id/tvDetailDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:paddingBottom="8dp"
+            android:textSize="18sp"
+            fontPath="fonts/Montserrat-Regular.ttf"
+            android:textColor="@color/black_anime"
+            app:layout_constraintTop_toBottomOf="@+id/titleDescriptionTextView"
+            tools:text="Lorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsum" />
+
+        <TextView
+            android:id="@+id/titleUserTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="26dp"
+            android:paddingTop="20dp"
+            android:paddingRight="26dp"
+            android:paddingBottom="8dp"
+            android:textSize="20sp"
+            android:text="@string/user"
+            android:textColor="@color/black_anime"
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailDescription"
+            tools:text="Description" />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:paddingBottom="8dp"
+            android:textSize="18sp"
+            fontPath="fonts/Montserrat-Regular.ttf"
+            android:textColor="@color/black_anime"
+            app:layout_constraintTop_toBottomOf="@+id/titleUserTextView"
+            tools:text="Lorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsum" />
+
+        <TextView
+            android:id="@+id/tvUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:paddingBottom="8dp"
+            android:textSize="18sp"
+            fontPath="fonts/Montserrat-Regular.ttf"
+            android:textColor="@color/black_anime"
+            app:layout_constraintTop_toBottomOf="@+id/tvUserName"
+            tools:text="Lorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsum" />
+
+        <TextView
+            android:id="@+id/tvUserPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:paddingBottom="8dp"
+            android:textSize="18sp"
+            fontPath="fonts/Montserrat-Regular.ttf"
+            android:textColor="@color/black_anime"
+            app:layout_constraintTop_toBottomOf="@+id/tvUserEmail"
+            tools:text="Lorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsum" />
+
+        <TextView
+            android:id="@+id/tvUserWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:paddingBottom="8dp"
+            android:textSize="18sp"
+            fontPath="fonts/Montserrat-Regular.ttf"
+            android:textColor="@color/black_anime"
+            app:layout_constraintTop_toBottomOf="@+id/tvUserPhone"
+            tools:text="Lorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsumLorem ipsum test about lorem ipsum" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
