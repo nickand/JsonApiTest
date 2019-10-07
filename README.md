@@ -30,6 +30,7 @@ A collection of samples using the [Architecture Components](https://developer.an
 - ![Android Support Design](https://developer.android.com/topic/libraries/support-library/packages)
 
 ## TO DO
+- Add Documentation
 - Add Navigation Component
 - Get Comments
 - Add more tests
