@@ -29,4 +29,5 @@ A collection of samples using the [Architecture Components](https://developer.an
 
 ## TO DO
 - Add Navigation Component
+- Get Comments
 - Add more tests
