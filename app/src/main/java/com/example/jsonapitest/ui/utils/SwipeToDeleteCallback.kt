@@ -38,8 +38,8 @@ class SwipeToDeleteCallback(
     override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
         var position = viewHolder.adapterPosition
         if (position < mAdapter.posts.size) {
-            mAdapter.deletePost(position)
             postViewModel.onDeletePostById(mAdapter.posts[position].postId)
+            mAdapter.deletePost(position)
         }
     }
 
