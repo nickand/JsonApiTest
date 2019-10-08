@@ -1,3 +1,5 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b496c86823ae4846bd09bc086d44af4d)](https://www.codacy.com/manual/nickand/JsonApiTest?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nickand/JsonApiTest&amp;utm_campaign=Badge_Grade)
+
 ## ![webLogo](https://user-images.githubusercontent.com/4821464/66293131-99dd9c80-e8ab-11e9-89b3-0cb2dc258c58.PNG)<br/>
 Android application using the http://jsonplaceholder.typicode.com/ API applying Clean Architecture
 
@@ -28,6 +30,9 @@ A collection of samples using the [Architecture Components](https://developer.an
 - ![Android Support Design](https://developer.android.com/topic/libraries/support-library/packages)
 
 ## TO DO
+- Add Documentation
+- Fix bugs
+- Improve Delete function
 - Add Navigation Component
 - Get Comments
 - Add more tests
