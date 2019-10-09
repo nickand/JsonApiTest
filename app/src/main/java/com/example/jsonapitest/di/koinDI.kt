@@ -55,7 +55,7 @@ private val scopesModule = module {
     scope(named<DetailFragment>()) {
         viewModel { (postId: Int) -> DetailViewModel(postId, get(), get(), get(), get()) }
         scoped { FindPostById(get()) }
-        scoped { ToggleAnimeFavorite(get()) }
+        scoped { TogglePostFavorite(get()) }
         scoped { CheckReadStatus(get()) }
     }
 

@@ -2,21 +2,18 @@ package com.example.jsonapitest.ui.detail
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.viewModelScope
 import com.example.domain.Post
-import com.example.domain.User
 import com.example.jsonapitest.ui.utils.ScopedViewModel
 import com.example.usecase.CheckReadStatus
 import com.example.usecase.FindPostById
-import com.example.usecase.GetUser
-import com.example.usecase.ToggleAnimeFavorite
+import com.example.usecase.TogglePostFavorite
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.launch
 
 class DetailViewModel(
     private val postId: Int,
     private val findPostById: FindPostById,
-    private val toggleAnimeFavorite: ToggleAnimeFavorite,
+    private val togglePostFavorite: TogglePostFavorite,
     private val checkReadStatus: CheckReadStatus,
     override val uiDispatcher: CoroutineDispatcher
 ) : ScopedViewModel(uiDispatcher) {
@@ -36,7 +33,7 @@ class DetailViewModel(
 
     fun onFavoriteClicked() = launch {
         _model.value?.post?.let {
-            _model.value = UiModel(toggleAnimeFavorite.invoke(it))
+            _model.value = UiModel(togglePostFavorite.invoke(it))
         }
     }
 
